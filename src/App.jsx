@@ -1,27 +1,21 @@
-import ButtonGradient from "./assets/svg/ButtonGradient";
-import Benefits from "./components/Benefits";
-import Collaboration from "./components/Collaboration";
-import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-// import Pricing from "./components/Pricing"; // Comment this line
-import Roadmap from "./components/Roadmap";
-import Services from "./components/Services";
+import ButtonGradient from "./assets/svg/ButtonGradient";
+import Home from "./pages/Home";
+import DeepfakeDetector from "./components/Test";
 
 const App = () => {
+  console.log("✅ App component is rendering...");
+
   return (
     <>
       <Header />
-      <div className="pt-[6rem] lg:pt-[8rem] xl:pt-[10rem] overflow-hidden">
-        <Hero />
-        <Benefits />
-        <Collaboration />
-        <Services />
-        {/* <Pricing /> // Comment this line */}
-        <Roadmap />
-        <Footer />
+      <div className="pt-[6rem] lg:pt-[8rem] xl:pt-[10rem]">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/upload" element={<DeepfakeDetector />} />
+        </Routes>
       </div>
-
       <ButtonGradient />
     </>
   );

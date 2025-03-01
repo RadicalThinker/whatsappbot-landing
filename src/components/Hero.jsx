@@ -1,5 +1,4 @@
 import { curve, heroBackground, robot } from "../assets";
-import Button from "./Button";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 import { heroIcons } from "../constants";
@@ -8,6 +7,7 @@ import { useRef } from "react";
 import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
+import { MorphingText } from "./MorphText";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -22,9 +22,12 @@ const Hero = () => {
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
+        <div className="flex">
+        <MorphingText texts={["Fake ?", "Real ?"]}/>
+        </div>
           <h1 className="h1 mb-6">
-            Welcome To Whatsapp &nbsp;AI&nbsp;Whatsapp DeepFake Bot {` `}
-            <span className="inline-block relative">
+            Detect Fake News & Deepfakes Using {` `}
+            <span className="inline-block relative text-violet-600">
               FOR REAL{" "}
               <img
                 src={curve}

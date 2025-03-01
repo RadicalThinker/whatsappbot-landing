@@ -58,6 +58,12 @@ export const navigation = [
     url: "#faq", // Changed from #roadmap
   },
   {
+    id: "6",
+    title: "Upload",
+    url: "/upload",
+    // onlyMobile: true,
+  },
+  {
     id: "4",
     title: "New account",
     url: "#signup",

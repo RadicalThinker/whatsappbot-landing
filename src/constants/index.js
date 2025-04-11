@@ -40,7 +40,7 @@ export const navigation = [
   {
     id: "0",
     title: "Features",
-    url: "#features",
+    url: "/",
   },
   // {
   //   id: "1",
@@ -50,12 +50,12 @@ export const navigation = [
   {
     id: "2",
     title: "How to use",
-    url: "#how-to-use",
+    url: "/",
   },
   {
     id: "3",
     title: "FAQ", // Changed from Roadmap
-    url: "#faq", // Changed from #roadmap
+    url: "/", // Changed from #roadmap
   },
   {
     id: "6",
@@ -66,13 +66,13 @@ export const navigation = [
   {
     id: "4",
     title: "New account",
-    url: "#signup",
+    url: "/",
     onlyMobile: true,
   },
   {
     id: "5",
     title: "Sign in",
-    url: "#login",
+    url: "/",
     onlyMobile: true,
   },
 ];
@@ -250,7 +250,7 @@ export const benefits = [
   {
     id: "0",
     title: "Instant Fake News Detection",
-    text: "Forward any message, news article, or job offer to ForReal on WhatsApp, and it will verify its authenticity using AI.",
+    text: "Forward any message, news article, or job offer to D-tox on WhatsApp, and it will verify its authenticity using AI.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -258,7 +258,7 @@ export const benefits = [
   {
     id: "1",
     title: "Deepfake Video & Image Analysis",
-    text: "Upload videos or images, and ForReal will detect whether they’ve been manipulated using deepfake technology.",
+    text: "Upload videos or images, and D-tox will detect whether they’ve been manipulated using deepfake technology.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -292,7 +292,7 @@ export const benefits = [
   {
     id: "5",
     title: " Super Easy to Use – Just WhatsApp It!",
-    text: "No need to download an app! Just forward any message, image, or video to ForReal on WhatsApp.",
+    text: "No need to download an app! Just forward any message, image, or video to D-tox on WhatsApp.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

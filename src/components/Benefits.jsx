@@ -11,7 +11,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Getting SCAMMED by FAKE NEWS again and again , Let's GO ForReal"
+          title="Getting SCAMMED by FAKE NEWS again and again , Let's GO D-tox"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">

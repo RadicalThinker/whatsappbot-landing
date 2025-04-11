@@ -7,28 +7,28 @@ import { useState } from "react"; // Add this import
 const faqData = [
   {
     id: "0",
-    question: "What is ForReal and how does it work?",
-    answer: "ForReal is an AI-powered WhatsApp bot that helps detect fake news, scams, and deepfake content. Simply forward any suspicious message, image, or video to our WhatsApp number, and our AI will analyze it instantly to verify its authenticity.",
+    question: "What is D-tox and how does it work?",
+    answer: "D-tox is an AI-powered WhatsApp bot that helps detect fake news, scams, and deepfake content. Simply forward any suspicious message, image, or video to our WhatsApp number, and our AI will analyze it instantly to verify its authenticity.",
   },
   {
     id: "1",
-    question: "Is ForReal free to use?",
-    answer: "Yes, ForReal is completely free to use. Just save our WhatsApp number and start forwarding suspicious content for verification.",
+    question: "Is D-tox free to use?",
+    answer: "Yes, D-tox is completely free to use. Just save our WhatsApp number and start forwarding suspicious content for verification.",
   },
   {
     id: "2",
-    question: "What types of content can ForReal analyze?",
-    answer: "ForReal can analyze text messages, images, videos, voice messages, links, and documents. This includes news articles, job offers, government schemes, and potential scam messages.",
+    question: "What types of content can D-tox analyze?",
+    answer: "D-tox can analyze text messages, images, videos, voice messages, links, and documents. This includes news articles, job offers, government schemes, and potential scam messages.",
   },
   {
     id: "3",
-    question: "How accurate is ForReal's detection?",
-    answer: "ForReal uses advanced AI and machine learning models, combined with verified databases to provide highly accurate results. We continuously update our systems to improve accuracy.",
+    question: "How accurate is D-tox's detection?",
+    answer: "D-tox uses advanced AI and machine learning models, combined with verified databases to provide highly accurate results. We continuously update our systems to improve accuracy.",
   },
   {
     id: "4",
-    question: "Is my data secure with ForReal?",
-    answer: "Yes, we take privacy very seriously. All content shared with ForReal is analyzed securely and is not stored or shared with third parties.",
+    question: "Is my data secure with D-tox?",
+    answer: "Yes, we take privacy very seriously. All content shared with D-tox is analyzed securely and is not stored or shared with third parties.",
   },
 ];
 
@@ -45,7 +45,7 @@ const Roadmap = () => {
         <Heading 
           tag="Got questions?" 
           title="Frequently Asked Questions" 
-          text="Everything you need to know about ForReal's scam detection service"
+          text="Everything you need to know about D-tox's scam detection service"
         />
 
         <div className="relative grid gap-6 max-w-[800px] mx-auto">

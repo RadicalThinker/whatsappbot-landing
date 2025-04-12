@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
           <h1 className="h1 mb-6">
             Detect Fake News & Fake Links Using {` `}
-            <span className="inline-block relative text-violet-600">
+            <span className="inline-block relative text-color-5">
               D-Tox{" "}
               <img
                 src={curve}

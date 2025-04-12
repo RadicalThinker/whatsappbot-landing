@@ -257,8 +257,8 @@ export const benefits = [
   },
   {
     id: "1",
-    title: "Deepfake Video & Image Analysis",
-    text: "Upload videos or images, and D-tox will detect whether they’ve been manipulated using deepfake technology.",
+    title: "Phising & Scam Detection",
+    text: "Get real-time alerts for phishing attempts and scams. D-tox will analyze messages and links to identify potential threats.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

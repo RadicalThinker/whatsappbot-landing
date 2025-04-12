@@ -1,4 +1,3 @@
-import { companyLogos } from "../constants";
 import Infinite from "./Infinite";
 
 const CompanyLogos = ({ className }) => {

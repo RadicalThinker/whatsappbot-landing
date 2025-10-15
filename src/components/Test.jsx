@@ -45,7 +45,7 @@ const DeepfakeDetector = () => {
       {/* Header */}
       {/* <header className="border-b p-4">
         <div className="container mx-auto flex justify-between items-center">
-          <div className="text-gray-600 text-2xl font-medium">D-tox®</div>
+          <div className="text-gray-600 text-2xl font-medium">ForReal®</div>
           <div className="flex items-center gap-4">
             <div>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -59,7 +59,7 @@ const DeepfakeDetector = () => {
       {/* Main Content */}
       <main className="flex-grow flex flex-col items-center justify-center p-6">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold mb-2">Is this D-tox for real?</h1>
+          <h1 className="text-3xl font-bold mb-2">Is this ForReal for real?</h1>
           <p className="text-gray-600">Scan and detect Deepfake videos</p>
         </div>
         

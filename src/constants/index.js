@@ -250,7 +250,7 @@ export const benefits = [
   {
     id: "0",
     title: "Instant Fake News Detection",
-    text: "Forward any message, news article, or job offer to D-tox on WhatsApp, and it will verify its authenticity using AI.",
+    text: "Forward any message, news article, or job offer to ForReal on WhatsApp, and it will verify its authenticity using AI.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
@@ -258,7 +258,7 @@ export const benefits = [
   {
     id: "1",
     title: "Phising & Scam Detection",
-    text: "Get real-time alerts for phishing attempts and scams. D-tox will analyze messages and links to identify potential threats.",
+    text: "Get real-time alerts for phishing attempts and scams. ForReal will analyze messages and links to identify potential threats.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -292,7 +292,7 @@ export const benefits = [
   {
     id: "5",
     title: " Super Easy to Use – Just WhatsApp It!",
-    text: "No need to download an app! Just forward any message, image, or video to D-tox on WhatsApp.",
+    text: "No need to download an app! Just forward any message, image, or video to ForReal on WhatsApp.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

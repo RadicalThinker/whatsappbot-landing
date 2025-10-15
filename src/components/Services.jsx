@@ -16,7 +16,7 @@ const Services = () => {
     <Section id="how-to-use">
       <div className="container">
         <Heading
-          title="D-tox – Because Truth Matters."
+          title="ForReal – Because Truth Matters."
           text="Just forward any suspicious message and get the truth instantly!"
         />
 

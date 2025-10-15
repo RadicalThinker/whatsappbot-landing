@@ -14,7 +14,7 @@ const App = () => {
       <div className="pt-[6rem] lg:pt-[8rem] xl:pt-[5rem]">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/upload" element={<DeepfakeDetector />} />
+          {/* <Route path="/upload" element={<DeepfakeDetector />} /> */}
           <Route path="/chat" element={<Chat />} />
         </Routes>
       </div>

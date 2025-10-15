@@ -92,7 +92,7 @@ Do NOT provide citations, origins, or extra text. Always keep it concise.
         {/* Chat messages */}
         <div
           ref={listRef}
-          className="flex-1 overflow-y-auto p-6 space-y-4 bg-gray-800"
+          className="flex-1 overflow-y-auto p-6 space-y-4 bg-n-8"
         >
           {messages.map((m) => (
             <div
@@ -122,7 +122,7 @@ Do NOT provide citations, origins, or extra text. Always keep it concise.
         </div>
 
         {/* Input area */}
-        <div className="flex border-t border-gray-700 bg-gray-900 p-4 items-center space-x-3">
+        <div className="flex border-t border-gray-700 bg-n-8 p-4 items-center space-x-3">
           <textarea
             value={input}
             onChange={(e) => setInput(e.target.value)}

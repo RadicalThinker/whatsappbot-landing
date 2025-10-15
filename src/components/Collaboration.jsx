@@ -26,7 +26,7 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <a href="https://wa.me/918700739666" target="_blank">
+          <a href="https://wa.me/919315556844" target="_blank">
     <button>Try it now</button> </a>
 
 

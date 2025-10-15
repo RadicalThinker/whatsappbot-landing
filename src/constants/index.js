@@ -57,24 +57,6 @@ export const navigation = [
     title: "FAQ", // Changed from Roadmap
     url: "/", // Changed from #roadmap
   },
-  {
-    id: "6",
-    title: "Upload",
-    url: "/upload",
-    // onlyMobile: true,
-  },
-  {
-    id: "4",
-    title: "New account",
-    url: "/",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "/",
-    onlyMobile: true,
-  },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];

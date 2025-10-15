@@ -10,12 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "groq-sdk": "^0.33.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-infinite-logo-slider": "^1.1.4",
     "react-just-parallax": "^3.1.16",
     "react-router-dom": "^6.22.1",
-    "scroll-lock": "^2.1.5",
-    "react-infinite-logo-slider": "^1.1.4"
+    "scroll-lock": "^2.1.5"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",
